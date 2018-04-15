@@ -775,6 +775,10 @@ body {
         display: none;
     }
 
+    .sub-header-block span {
+        display: none;
+    }
+
     .footer {
         display: block;
     }
