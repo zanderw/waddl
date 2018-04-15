@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://www.fizzl.io/</loc>
+  <lastmod>2018-02-20T13:03:38+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.fizzl.io/how-it-works</loc>
+  <lastmod>2018-02-20T13:03:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.fizzl.io/pricing</loc>
+  <lastmod>2018-02-20T13:03:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.fizzl.io/about</loc>
+  <lastmod>2018-02-20T13:03:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.fizzl.io/blog</loc>
+  <lastmod>2018-02-20T13:03:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.fizzl.io/blog/intro-feedback-loops-in-fizzl</loc>
+  <lastmod>2018-02-20T13:03:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.fizzl.io/blog/intro-create-projects-in-fizzl</loc>
+  <lastmod>2018-02-20T13:03:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.fizzl.io/blog/intro-segment-teams-in-fizzl</loc>
+  <lastmod>2018-02-20T13:03:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.fizzl.io/blog/Kyle-Greenberg-on-dealing-with-Feedback-within-VR-&amp;-AR-between-Shanghai-and-NYC</loc>
+  <lastmod>2018-02-20T13:03:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.fizzl.io/blog/4-lessons-learnt-from-building-our-mvp-which-is-used-in-over-55-countries-by-1000s-of-designers</loc>
+  <lastmod>2018-02-20T13:03:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.fizzl.io/blog/why-we-built-fizzl</loc>
+  <lastmod>2018-02-20T13:03:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

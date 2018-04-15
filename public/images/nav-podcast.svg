@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="30px" viewBox="0 0 26 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 89</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-89" transform="translate(-2.000000, -3.000000)">
+            <g id="Group-22">
+                <rect id="Rectangle-69" fill="#28AE80" transform="translate(15.000000, 14.500000) rotate(52.000000) translate(-15.000000, -14.500000) " x="8" y="1" width="14" height="27" rx="7"></rect>
+                <path d="M15,22.5 L15,31.5" id="Line-22" stroke="#28AE80" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M21,32 L10,32" id="Line-22" stroke="#28AE80" stroke-width="2" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

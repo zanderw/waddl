@@ -1,0 +1,33 @@
+{
+  "name": "fech",
+  "version": "0.1.0",
+  "description": "Fast Feedback",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.16.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zanderw/fech.git"
+  },
+  "keywords": [
+    "node",
+    "heroku"
+  ],
+  "author": "Zander Whitehurst",
+  "contributors": [
+    ""
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zanderw/fech/issues"
+  },
+  "homepage": "https://github.com/zanderw/fech#readme"
+}

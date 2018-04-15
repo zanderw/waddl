@@ -1,0 +1,782 @@
+body {
+    background: rgba(0, 0, 0, .02);
+}
+
+.auto {
+    height: auto;
+    overflow-x: auto;
+}
+
+.pad-top {
+    padding-top: 20px;
+}
+
+.pad-bot {
+    padding-bottom: 20px;
+}
+
+.pad-bot-lg {
+    padding-bottom: 60px;
+}
+
+.mar-top {
+    margin-top: 20px;
+}
+
+.pad-hor {
+    padding: 0 30px;
+}
+
+.pad-xs {
+    padding: 15px;
+}
+
+.pad-sm {
+    padding: 30px 20px;
+}
+
+.pad-left {
+    padding-left: 20px;
+}
+
+.pad-right {
+    padding-right: 20px;
+}
+
+.pad-md {
+    padding: 60px 30px;
+}
+
+.pad-lg {
+    padding: 80px 40px;
+}
+
+.pad-xl {
+    padding: 100px 50px;
+}
+
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
+}
+
+.ml {
+    margin-left: 10px;
+}
+
+
+.np {
+    padding: 5px !important;
+}
+
+/* SITE BAR */
+/*------------------------*/
+.site-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.03) 0 2px 0 0;
+    padding: 10px 30px;
+    z-index: 1;
+}
+
+.site-bar .logo {
+    color: #333333;
+    font-size: 24px;
+    cursor: pointer;
+    font-family: 'Damion';
+}
+
+.site-bar .nav-item {
+    font-size: 12px;
+    color: rgba(0, 0, 0, .5);
+    cursor: pointer;
+    line-height: 35px;
+}
+
+/* SIDE NAV */
+/*------------------------*/
+.side-nav {
+    position: fixed;
+    top: 60px;
+    left: 30px;
+    width: 180px;
+}
+
+.side-nav ul {
+    margin: 0;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.li-header {
+    text-transform: uppercase;
+    font-size: 10px;
+    color: rgba(0,0,0,.4);
+    font-family: 'Merriweather', sans-serif;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.side-nav ul li a {
+    color: #333333;
+    font-size: 13px;
+    border-radius: 4px;
+    padding: 7px 5px;
+    display: block;
+    margin-top: 3px;
+}
+
+.side-nav ul li a span {
+    background: #F0F4F7;
+    font-size: 10px;
+    border-radius: 10px;
+    padding: 3px 6px;
+    float: right;
+}
+
+.side-nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.side-nav ul li a img {
+    width: 13px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/*HERO BLOCK */
+.hero-block {
+    position: relative;
+    margin-left: 220px;
+    margin-top: 30px;
+}
+
+.hero-block-header {
+    position: relative;
+}
+
+.tag {
+    padding: 5px 8px;
+    font-size: 10px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    text-decoration: none;
+    margin: 0 5px;
+    cursor: pointer;
+    color: #333;
+}
+
+.tag:hover {
+    box-shadow: rgba(0, 0, 0, 0.03) 0 2px 0 0;
+    text-decoration: none;
+}
+
+
+.blue {
+    background: #BACFF7 !important;
+}
+
+.yellow {
+    background: #F7ECBA;
+}
+
+.green {
+    background: #BAF7DC;
+}
+
+.sub-header-block {
+    background: rgba(0, 0, 0, .05);
+    padding: 8px 15px;
+    border-radius: 4px;
+    height: auto;
+    overflow-x: auto;
+    width: max-content;
+    color: #4F5E71;
+}
+
+.sub-header-block img {
+    width: auto;
+    height: 15px;
+}
+
+.sub-hero-nav {
+    padding: 10px 0;
+}
+
+.sub-hero-nav a {
+    font-size: 12px;
+    padding: 5px 0;
+    text-transform: uppercase;
+    color: #333;
+    cursor: pointer;
+    border-radius: 0;
+    margin-right: 10px;
+}
+
+.sub-hero-nav a:hover {
+    border-bottom: 2px solid rgba(0,0,0,0.3);
+    text-decoration: none;
+}
+
+.active-sub {
+    border-bottom: 2px solid rgba(0,0,0,0.5);
+}
+
+.btn-line {
+    border-bottom: 3px solid rgba(0, 0, 0, .08);
+    color: #333;
+    cursor: pointer;
+}
+
+.btn-line:hover {
+    border-bottom: 3px solid rgba(0, 0, 0, .5);
+    text-decoration: none;
+}
+
+.btn-secondary {
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #333333;
+    background: rgba(0, 0, 0, .05);
+    box-shadow: rgba(0, 0, 0, 0.03) 0 2px 0 0;
+}
+
+.btn-secondary:hover {
+    color: #333333;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 0 0;
+}
+
+.btn-secondary img {
+    width: 13px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.primary {
+    background: #2d7ff9;
+    color: #fff;
+}
+
+.primary:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.block-box {
+    border-radius: 10px;
+    background: none;
+    width: 100%;
+    margin: 0 auto;
+    height: 260px;
+    padding: 5px;
+    cursor: pointer;
+    display: block;
+}
+
+.block-box:hover {
+    background: rgba(0, 0, 0, .05);
+}
+
+
+.block-image {
+    height: 250px;
+    width: 100%;
+    background-image: url('/images/hero_gear.svg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.b-img-01 {
+    background-image: url('/images/hero_nutrition.svg');
+}
+
+.b-img-02 {
+    background-image: url('/images/hero_training.svg');
+}
+
+.b-img-03 {
+    background-image: url('/images/hero_races.svg');
+}
+
+.b-img-04 {
+    background-image: url('/images/hero_communities.svg');
+}
+
+.b-img-05 {
+    background-image: url('/images/hero_blogs.svg');
+}
+
+.b-img-06 {
+    background-image: url('/images/hero_books.svg');
+}
+
+.b-img-07 {
+    background-image: url('/images/hero_podcasts.svg');
+}
+
+.b-img-08 {
+    background-image: url('/images/hero_entertainment.svg');
+}
+
+.b-img-09 {
+    background-image: url('/images/hero_apps.svg');
+}
+
+/*HOTJAR */
+.h-img-01 {
+    background-image: url('/images/hotjar_mob_flow.png');
+}
+
+.h-img-02 {
+    background-image: url('/images/hotjar_mob_sketch.png');
+}
+
+.h-img-03 {
+    background-image: url('/images/hotjar_mob_wires.png');
+}
+
+.h-img-04 {
+    background-image: url('/images/hotjar_mob_mocks.png');
+}
+
+.h-img-05 {
+    background-image: url('/images/hotjar_buddy_flows.png');
+}
+.h-img-06 {
+    background-image: url('/images/hotjar_buddy_sketch.png');
+}
+
+.h-img-07 {
+    background-image: url('/images/hotjar_buddy_mocks.png');
+}
+
+.h-img-08 {
+    background-image: url('/images/hotjar_buddy_prototype.gif');
+}
+
+.h-img-09 {
+    background-image: url('/images/hotjar_seg_flows.png');
+}
+
+.h-img-10 {
+    background-image: url('/images/hotjar_seg_wires.png');
+}
+
+.h-img-11 {
+    background-image: url('/images/hotjar_target_flows.png');
+}
+
+.h-img-12 {
+    background-image: url('/images/hotjar_target_sketch.png');
+}
+
+.h-img-13 {
+    background-image: url('/images/hotjar_target_wires.png');
+}
+
+.h-img-14 {
+    background-image: url('/images/hotjar_target_mocks.gif');
+}
+
+.h-img-15 {
+    background-image: url('/images/hotjar_nps_sketch.png');
+}
+
+.h-img-16 {
+    background-image: url('/images/hotjar_nps_wires.png');
+}
+
+.h-img-17 {
+    background-image: url('/images/hotjar_nps_mocks.png');
+}
+
+.c-img-01 {
+    background-image: url('/images/cp_flows.png');
+}
+
+.c-img-02 {
+    background-image: url('/images/cp_sketch.png');
+}
+
+.c-img-03 {
+    background-image: url('/images/cp_proto.png');
+}
+
+.c-img-04 {
+    background-image: url('/images/cp_flow_01.png');
+}
+
+.c-img-05 {
+    background-image: url('/images/cp_sketch_01.png');
+}
+
+.c-img-06 {
+    background-image: url('/images/cp_proto_01.png');
+}
+
+.book_img_01 {
+    background-image: url('/images/book_lean.jpg');
+}
+
+.book_img_02 {
+    background-image: url('/images/book_sense.jpg');
+}
+
+.book_img_03 {
+    background-image: url('/images/book_hooked.jpg');
+}
+
+.book_img_04 {
+    background-image: url('/images/book_dont.jpg');
+}
+
+.book_img_05 {
+    background-image: url('/images/book_sprint.jpg');
+}
+
+.book_img_06 {
+    background-image: url('/images/book_face.jpg');
+}
+
+.book_img_07 {
+    background-image: url('/images/book_everyday.jpg');
+}
+
+.book_img_08 {
+    background-image: url('/images/book_thinking.jpg');
+}
+
+.book_img_09 {
+    background-image: url('/images/book_visual.jpg');
+}
+
+.book_img_10 {
+    background-image: url('/images/book_shock.jpg');
+}
+
+.book_img_11 {
+    background-image: url('/images/book_run.jpg');
+}
+
+.book_img_12 {
+    background-image: url('/images/book_power.jpg');
+}
+
+
+.y_img_01 {
+    background-image: url('/images/yield_conversion_flows.png');
+}
+
+
+.y_img_02 {
+    background-image: url('/images/yield_conversion_wires.png');
+}
+
+.y_img_03 {
+    background-image: url('/images/yield_conversion_mocks.png');
+}
+
+.y_img_04 {
+    background-image: url('/images/yield_conversion_prototype.png');
+}
+
+
+.y_img_05 {
+    background-image: url('/images/yield_style_kit.png');
+}
+
+.y_img_06 {
+    background-image: url('/images/yield_style_wire.png');
+}
+
+.y_img_07 {
+    background-image: url('/images/yield_style_prototype.png');
+}
+
+.a_img_01 {
+    background-image: url('/images/and_hub_flows.png');
+}
+
+.a_img_02 {
+    background-image: url('/images/and_hub_wires.png');
+}
+
+.a_img_03 {
+    background-image: url('/images/and_hub_mocks.png');
+}
+
+/* ROW BLOCK */
+
+.row-block {
+    display: block;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.row-block:hover {
+    background: rgba(0, 0, 0, .05);
+    text-decoration: none;
+}
+
+.row-block:hover .row-block-overlay {
+    display: block;
+}
+
+.row-block-content {
+    border-radius: 4px;
+}
+
+.row-block-avatar {
+    height: 150px;
+    width: 100%;
+    border-radius: 4px;
+    background-image: url('/images/blog_intercom.png');
+    background-size: cover;
+    background-position: center;
+    position: relative
+}
+
+.row-block-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.4);
+    padding: 5px 10px;
+    display: none;
+}
+
+.row-block-overlay p {
+    color: #fff;
+}
+
+.row-block-overlay span {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    font-size: 10px;
+    text-transform: uppercase;
+    background: #FABCCA;
+    color: #333;
+    padding: 4px 8px;
+}
+
+
+.gear_img_socks_01 {
+    background-image: url('/images/gear_socks_compress_sport.svg');
+}
+
+.gear_img_socks_02 {
+    background-image: url('/images/gear_socks_compress.svg');
+}
+
+.gear_img_socks_03 {
+    background-image: url('/images/gear_socks_rymora.svg');
+}
+
+
+/* TRAIL */
+.gear_img_trail_01 {
+    background-image: url('/images/gear_trainer_trail_vivo.svg');
+}
+
+.gear_img_trail_02 {
+    background-image: url('/images/gear_trainer_trail_mizuno.png');
+}
+
+
+.row-block-tag {
+    padding: 5px 0;
+}
+
+.avatar_01 {
+    background-image: url('/images/blog_collective.png');
+}
+
+.avatar_02 {
+    background-image: url('/images/blog_kiss.png');
+}
+
+.avatar_03 {
+    background-image: url('/images/blog_hotjar.png');
+}
+
+.avatar_04 {
+    background-image: url('/images/blog_mailchimp.gif');
+}
+
+.avatar_05 {
+    background-image: url('/images/blog_invision.png');
+}
+
+.avatar_06 {
+    background-image: url('/images/blog_prototypr.gif');
+}
+
+.pod_img_01 {
+    background-image: url('/images/podcast_intercom.png');
+}
+
+.pod_img_02 {
+    background-image: url('/images/podcast_how.jpeg');
+}
+
+.pod_img_03 {
+    background-image: url('/images/podcast_high.png');
+}
+
+.pod_img_04 {
+    background-image: url('/images/podcast_headspace.png');
+}
+
+.pod_img_05 {
+    background-image: url('/images/podcast_slack.png');
+}
+
+.pod_img_06 {
+    background-image: url('/images/podcast_rich.png');
+}
+
+.tool_img_01 {
+    background-image: url('/images/tool_abstract.svg');
+}
+
+.tool_img_02 {
+    background-image: url('/images/tool_sketch.svg');
+}
+
+.tool_img_03 {
+    background-image: url('/images/tool_zeplin.svg');
+}
+
+.tool_img_04 {
+    background-image: url('/images/tool_in.svg');
+}
+
+.tool_img_05 {
+    background-image: url('/images/tool_framer.svg');
+}
+
+.tool_img_06 {
+    background-image: url('/images/tool_hotjar.svg');
+}
+
+.tool_img_07 {
+    background-image: url('/images/tool_intercom.svg');
+}
+
+.tool_img_08 {
+    background-image: url('/images/tool_zoom.svg');
+}
+
+.tool_img_09 {
+    background-image: url('/images/tool_lookback.svg');
+}
+
+.tool_img_10 {
+    background-image: url('/images/tool_loom.svg');
+}
+
+.tool_img_11 {
+    background-image: url('/images/tool_calendly.svg');
+}
+
+.tool_img_12 {
+    background-image: url('/images/tool_jira.svg');
+}
+
+.tool_img_13 {
+    background-image: url('/images/tool_table.svg');
+}
+
+.tool_img_14 {
+    background-image: url('/images/tool_heroku.svg');
+}
+
+.style-active {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* FOOTER */
+
+.footer {
+    height: auto;
+    overflow-x: auto;
+    padding: 60px 20px;
+    background: rgb(255,255,255);
+    margin-top: 60px;
+    display: none;
+}
+
+.footer-logo {
+    font-family: 'Damion';
+    color: #333;
+    font-size: 18px;
+}
+
+.footer h4 {
+    text-transform: uppercase;
+    font-size: 10px;
+    color: rgba(0,0,0,.4);
+    font-family: 'Merriweather', sans-serif;
+    padding-bottom: 5px;
+   margin-top: 30px;
+    padding-left: 0;
+}
+
+.footer ul {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li {
+    padding: 5px 0;
+}
+
+.footer ul li a {
+    color: #333333;
+    font-size: 13px;
+    border-radius: 0;
+    width: max-content;
+    padding-bottom: 3px;
+    display: block;
+    margin-top: 3px;
+    border-bottom: 2px solid rgba(0,0,0,.2);
+}
+
+.footer ul li a:hover {
+    border-bottom: 2px solid rgba(0,0,0,.8);
+    text-decoration: none;
+}
+
+@media(max-width: 767px) {
+    .side-nav {
+        display: none;
+    }
+
+    .hero-block {
+        margin-left: 0;
+    }
+
+    .mob-hide {
+        display: none;
+    }
+
+    .footer {
+        display: block;
+    }
+
+}
